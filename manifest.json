@@ -1,0 +1,10 @@
+{
+    "name": "HideChessCom",
+    "description": "Hide details about your oponent while playing chess.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "hidechess.html",
+      "default_icon": "hidechess.png"
+    }
+  }
