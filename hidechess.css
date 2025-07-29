@@ -1,0 +1,58 @@
+body {
+    background: #23272f;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+    min-height: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    height: auto;
+}
+
+h1 {
+    margin: 10px 0 8px 0;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    color: #b58863; /* jasny brąz jak pole szachowe */
+    text-align: center;
+    font-weight: 600;
+}
+
+#name, #rating {
+    background: #2d313a;
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin: 4px 8px 0 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.15s;
+    min-height: 28px;
+}
+
+#rating {
+    margin-bottom: 8px;
+}
+
+#name:hover, #rating:hover {
+    background: #769656; /* zielony jak pole szachowe */
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    accent-color: #b58863; /* jasny brąz */
+    cursor: pointer;
+    margin: 0;
+}
+
+label {
+    font-size: 0.95rem;
+    cursor: pointer;
+    user-select: none;
+    letter-spacing: 0.1px;
+}
